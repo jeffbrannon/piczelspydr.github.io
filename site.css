@@ -1,0 +1,241 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+}
+
+a {
+    color: #636363;
+    text-decoration: none;
+    -webkit-transition: color .3s linear;
+    transition: color .3s linear;
+    cursor: pointer;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #9c9c9c
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body {
+    margin: 0;
+    padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #2b2b2b;
+    font-family: Lato, Helvetica Neue, Helvetica, Segoe UI, Tahoma, sans-serif
+}
+
+p {
+    margin: 0 0 24px
+}
+
+strong,
+b {
+    font-weight: 700
+}
+
+nav {
+    color: royalblue;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    width: 100%;
+    z-index: 4;
+    background: rgba(180,170,255, .25);
+    display: block;
+}
+
+.nav-content {
+    height: 64px;
+}
+
+.nav-img {
+    padding-top: 12px;
+    padding-left: 24px;
+}
+
+.nav-menu-content {
+    margin-top: -48px;
+}
+
+.nav-menu {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: right;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 8px #000000;
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+}
+
+.nav-menu > li {
+    margin: 0 18px 0 0;
+    vertical-align: middle;
+    display: inline;
+}
+
+.nav-menu a {
+    color: #e0e0e0
+}
+
+.nav-menu a:hover,
+.nav-menu .c-nav-menu__is-active,
+.nav-menu a:focus {
+    color: #fff
+}
+
+.banner-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    background: rgba(180,170,255,.15);
+    z-index: 3;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-shadow: 5px 5px 10px #333333;
+    color: #ffffff;
+}
+
+.banner-content_text-link {
+    color: currentColor;
+    -webkit-box-shadow: 0 1px 0 transparent;
+    box-shadow: 0 1px 0 transparent;
+    -webkit-transition: -webkit-box-shadow .3s linear;
+    transition: -webkit-box-shadow .3s linear;
+    transition: box-shadow .3s linear;
+    transition: box-shadow .3s linear, -webkit-box-shadow .3s linear
+}
+
+.banner-content_text-link:hover,
+.banner-content_text-link:focus {
+    color: currentColor;
+    -webkit-box-shadow: 0 1px 0 currentColor;
+    box-shadow: 0 1px 0 currentColor
+}
+
+.banner-content-text-group {
+    padding-top: 96px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.52rem;
+    font-weight: 700;
+}
+
+.banner-content-text-title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 3.25rem;
+}
+
+.banner-content-text-date {
+    padding-top: 32px;
+    padding-bottom: 96px;
+    font-family: 'PT Serif', serif;
+    font-size: 1.12rem;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.picture-wrapper {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000
+}
+
+.picture-layout {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.picture-background {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+footer {
+    color: black;
+}
+
+.footer-content {
+    padding: 16px;
+    height: 96px;
+    background-color: rgba(180,170,180, .3);
+    border-top: 1px solid rgba(0,0,0,.3);
+}
+
+.page-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(255,255,255, 1);
+    border-bottom: 1px solid rgba(0,0,0);
+    color: black;
+}
+
+.article-content {
+    max-width: 700px;
+}
+
+.article-content-title {
+    padding-bottom: 32px;
+    padding-top: 32px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.87rem;
+    font-style: italic;
+    font-weight: 300;
+    color: #636363;
+}
+
+.article-content-textarea {
+    font-family: 'PT Serif', serif;
+    font-size: 1.12rem;
+    line-height: 1.6;
+    text-align: left;
+}
