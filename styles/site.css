@@ -96,6 +96,7 @@ nav {
 ul {
     list-style-type: none;
     display: block;
+    color: #ffffff;
 }
 
 .nav-menu > li {
