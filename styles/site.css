@@ -128,7 +128,7 @@ ul {
     background: rgba(180,170,255,.15);
     z-index: 3;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    text-shadow: 5px 5px 10px #333333;
+    text-shadow: 5px 5px 8px #000000;
     color: #ffffff;
 }
 
