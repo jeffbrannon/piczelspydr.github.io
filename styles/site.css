@@ -131,7 +131,7 @@ ul {
     align-items: center;
     height: 100%;
     text-align: center;
-    background: rgba(0,30,65,.15);
+    background: rgba(0,30,50,.15);
     z-index: 3;
     border-bottom: 2px solid rgba(0,0,0,.3);
     text-shadow: 5px 5px 8px #000000;
@@ -210,8 +210,8 @@ footer {
 .footer-content {
     padding: 16px;
     height: 96px;
-    background-color: rgba(180,170,180, .3);
-    border-top: 1px solid rgba(0,0,0,.3);
+    background-color: rgba(0,30,50, .3);
+    border-top: 2px solid rgba(0,0,0,.3);
 }
 
 .page-content {
