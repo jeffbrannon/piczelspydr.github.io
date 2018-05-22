@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     height: 100vh;
     color: white;
+    background: rgb(20,25,30);
 }
 
 a {
@@ -72,7 +73,6 @@ nav {
     border-bottom: 2px solid rgb(0,0,0);
     width: 100%;
     z-index: 4;
-    background: rgb(20,25,30);
     display: block;
 }
 
@@ -97,6 +97,13 @@ nav {
     text-align: right;
     text-transform: uppercase;
     text-shadow: 5px 5px 8px #000000;
+}
+
+@media only screen and (max-width: 420px) {
+    .nav-menu {
+        font-size: 0.70rem;
+        padding-top: 6px;
+    }
 }
 
 ul {
@@ -193,6 +200,11 @@ ul {
     font-family: 'PT Serif', serif;
     font-size: 1.12rem;
 }
+
+main {
+    background: rgb(240,240,240);
+}
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -206,7 +218,6 @@ footer {
 .footer-content {
     padding: 16px;
     height: 96px;
-    background: rgb(20,25,30);
     border-top: 2px solid rgb(0,0,0);
 }
 
@@ -265,8 +276,29 @@ footer {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 calc(33.33333% - 1rem);
     flex: 1 1 calc(33.33333% - 1rem);
-    max-width: calc(-1rem + 33.33%);
-    background-color: aqua;
+    max-width: calc(33.33%);
+    background-color: #ffffff;
+    margin: 7px 7px 7px 7px;
+    border-radius: 25px;
+    border: 1px solid #000000;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 980px) {
+    .cell {
+        -ms-flex: 1 1 calc(50% - 1rem);
+        flex: 1 1 calc(50% - 1rem);
+        max-width: calc(50%);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cell {
+        -ms-flex: 1 1 calc(100% - 1rem);
+        flex: 1 1 calc(100% - 1rem);
+        max-width: calc(100%);
+    }
 }
 
 .quote-container {
@@ -280,6 +312,8 @@ footer {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .portfolio-container {
@@ -290,4 +324,6 @@ footer {
     max-width: 1130px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 32px;
+    padding-right: 32px;
 }
