@@ -69,10 +69,10 @@ b {
 
 nav {
     color: royalblue;
-    border-bottom: 2px solid rgba(0,0,0);
+    border-bottom: 2px solid rgb(0,0,0);
     width: 100%;
     z-index: 4;
-    background: rgba(20,25,30);
+    background: rgb(20,25,30);
     display: block;
 }
 
@@ -206,8 +206,8 @@ footer {
 .footer-content {
     padding: 16px;
     height: 96px;
-    background: rgba(20,25,30);
-    border-top: 2px solid rgba(0,0,0);
+    background: rgb(20,25,30);
+    border-top: 2px solid rgb(0,0,0);
 }
 
 .page-content {
@@ -220,7 +220,7 @@ footer {
     align-items: center;
     text-align: center;
     background: rgba(255,255,255, 1);
-    border-bottom: 1px solid rgba(0,0,0);
+    border-bottom: 1px solid rgb(0,0,0);
     color: black;
 }
 
