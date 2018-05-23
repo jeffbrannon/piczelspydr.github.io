@@ -129,23 +129,23 @@ ul {
 }
 
 .banner-main {
-    background: rgba(0,30,50,.9);
+    background: rgb(0,33,55);
 }
 
 .banner-thoughts {
-    background: rgba(0,30,50,.7);
+    background: rgb(45,55,85);
 }
 
 .banner-ideas {
-    background: rgba(30,50,0,.7);
+    background: rgb(55,85,45);
 }
 
 .banner-why {
-    background: rgba(50,0,0,.7);
+    background: rgb(85,45,45);
 }
 
 .banner-knowledge {
-    background: rgba(30,0,50,.7);
+    background: rgb(55,45,85);
 }
 
 .banner-content {
@@ -213,11 +213,14 @@ main {
 footer {
     color: white;
     text-shadow: 5px 5px 8px #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 .footer-content {
     padding: 16px;
-    height: 96px;
+    height: 32px;
     border-top: 2px solid rgb(0,0,0);
 }
 
@@ -272,17 +275,62 @@ footer {
 
 .cell {
     display: block;
-    padding: 2rem 0rem 6rem;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 calc(33.33333% - 1rem);
     flex: 1 1 calc(33.33333% - 1rem);
     max-width: calc(33.33%);
     background-color: #ffffff;
     margin: 7px 7px 7px 7px;
-    border-radius: 25px;
-    border: 1px solid #000000;
+    border-radius: 10px;
+    border: 1px solid #bbbbbb;
     align-items: center;
     text-align: center;
+    box-shadow: 2px 2px #dddddd;
+}
+
+.cell-section {
+    padding-top: 8px;
+    margin-left: 15%;
+    width: 70%;
+    height: 32px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(0,33,55);
+    border-bottom: 2px solid rgb(0,33,55);
+}
+
+.cell-title {
+    padding-top: 8px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Dosis', sans-serif;
+    font-size: 0.95 rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.cell-body {
+    width: 80%;
+    height: 198px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    font-size: 0.95 rem;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.cell-date {
+    margin-left: 15%;
+    width: 70%;
+    height: 32px;
+    border-radius: 0 0 10px 10px;
+    padding-top: 4px;
+    border-top: 1px solid #dddddd;
+    font-family: 'PT Serif', serif;
+    font-size: 1.12rem;
 }
 
 @media only screen and (max-width: 980px) {
@@ -326,4 +374,5 @@ footer {
     margin-right: auto;
     padding-left: 32px;
     padding-right: 32px;
+    padding-bottom: 48px;
 }
