@@ -189,6 +189,12 @@ ul {
     font-weight: 700;
 }
 
+@media only screen and (max-width: 600px) {
+    .banner-content-text-group {
+        padding-top: 32px;
+    }
+}
+
 .banner-content-text-title {
     font-family: 'Dosis', sans-serif;
     font-size: 3.25rem;
@@ -196,7 +202,14 @@ ul {
 
 .banner-content-text-date {
     padding-top: 32px;
-    padding-bottom: 96px;
+    padding-bottom: 48px;
+    font-family: 'PT Serif', serif;
+    font-size: 1.12rem;
+}
+
+.banner-content-social {
+    padding-top: 32px;
+    padding-bottom: 48px;
     font-family: 'PT Serif', serif;
     font-size: 1.12rem;
 }
@@ -400,4 +413,20 @@ footer {
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: 48px;
+}
+
+.social-icon {
+    width:40px;
+    height:40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .social-icon {
+        width:28px;
+        height:28px;
+    }
+}
+
+.social-icon-spacing {
+    padding-left:16px;
 }
