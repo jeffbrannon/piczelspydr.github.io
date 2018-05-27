@@ -21,8 +21,6 @@ body {
 a {
     color: #636363;
     text-decoration: none;
-    -webkit-transition: color .3s linear;
-    transition: color .3s linear;
     cursor: pointer;
 }
 
@@ -227,7 +225,7 @@ footer {
     color: white;
     text-shadow: 5px 5px 8px #000000;
     font-family: 'Lato', sans-serif;
-    font-size: 1.2rem;
+    font-size: 0.95rem;
     font-weight: 700;
 }
 
@@ -235,6 +233,16 @@ footer {
     padding: 16px;
     height: 32px;
     border-top: 2px solid rgb(0,0,0);
+    align-items: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .page-content {
@@ -301,19 +309,16 @@ footer {
     box-shadow: 2px 2px #dddddd;
 }
 
-.cell-large {
-    display: block;
-    -webkit-box-flex: 1;
+.cell-mid {
     -ms-flex: 1 1 calc(50% - 1rem);
     flex: 1 1 calc(50% - 1rem);
     max-width: calc(50%);
-    background-color: #ffffff;
-    margin: 7px 7px 7px 7px;
-    border-radius: 10px;
-    border: 1px solid #bbbbbb;
-    align-items: center;
-    text-align: center;
-    box-shadow: 2px 2px #dddddd;
+}
+
+.cell-large {
+    -ms-flex: 1 1 calc(100% - 1rem);
+    flex: 1 1 calc(100% - 1rem);
+    max-width: calc(100%);
 }
 
 .cell-section {
@@ -367,6 +372,11 @@ footer {
         flex: 1 1 calc(50% - 1rem);
         max-width: calc(50%);
     }
+    .cell-mid {
+        -ms-flex: 1 1 calc(100% - 1rem);
+        flex: 1 1 calc(100% - 1rem);
+        max-width: calc(100%);
+    }
     .cell-large {
         -ms-flex: 1 1 calc(100% - 1rem);
         flex: 1 1 calc(100% - 1rem);
@@ -376,6 +386,11 @@ footer {
 
 @media only screen and (max-width: 600px) {
     .cell {
+        -ms-flex: 1 1 calc(100% - 1rem);
+        flex: 1 1 calc(100% - 1rem);
+        max-width: calc(100%);
+    }
+    .cell-mid {
         -ms-flex: 1 1 calc(100% - 1rem);
         flex: 1 1 calc(100% - 1rem);
         max-width: calc(100%);
@@ -416,8 +431,16 @@ footer {
 }
 
 .social-icon {
-    width:40px;
-    height:40px;
+    width: 40px;
+    height: 40px;
+}
+
+.social-icon-sm {
+    width: 20px;
+    height: 20px;
+    padding-right: 8px;
+    line-height: 20px;
+    vertical-align: middle;
 }
 
 @media only screen and (max-width: 600px) {
