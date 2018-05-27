@@ -66,6 +66,11 @@ b {
     margin-left: -24px;
 }
 
+img {
+    max-width:100%;
+    max-height:100%;
+}
+
 nav {
     color: royalblue;
     border-bottom: 2px solid rgb(0,0,0);
@@ -322,6 +327,11 @@ footer a:hover {
 }
 
 .cell-section {
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid rgba(0,0,0);
+}
+
+.cell-area {
     padding-top: 8px;
     margin-left: 15%;
     width: 70%;
@@ -330,8 +340,9 @@ footer a:hover {
     font-size: 1.5rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: rgb(0,33,55);
-    border-bottom: 2px solid rgb(0,33,55);
+    color: white;
+    border-bottom: 2px solid white;
+    text-shadow: 5px 5px 8px #000000;
 }
 
 .cell-title {
@@ -381,6 +392,14 @@ footer a:hover {
         -ms-flex: 1 1 calc(100% - 1rem);
         flex: 1 1 calc(100% - 1rem);
         max-width: calc(100%);
+    }
+    
+    .cell-title {
+        width: 80%;
+    }
+    
+    .cell-body {
+        width: 80%;
     }
 }
 
