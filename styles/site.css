@@ -164,7 +164,6 @@ ul {
     height: 100%;
     text-align: center;
     z-index: 3;
-    border-bottom: 2px solid rgba(0,0,0);
 }
 
 .banner-content_text-link {
@@ -201,6 +200,8 @@ ul {
 .banner-content-text-title {
     font-family: 'Dosis', sans-serif;
     font-size: 3.25rem;
+    max-width: 800px;
+    margin:auto;
 }
 
 .banner-content-text-date {
