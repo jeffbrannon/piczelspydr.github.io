@@ -1,3 +1,13 @@
+.header-curved-base {
+    height: 96px;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-curved-base {
+        height: 48px;
+    }
+}
+
 html {
     -webkit-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
@@ -132,7 +142,7 @@ ul {
 }
 
 .banner-main {
-    background: rgb(0,33,55);
+    background: #031c34;
 }
 
 .banner-thoughts {
@@ -213,7 +223,6 @@ ul {
 
 .banner-content-social {
     padding-top: 32px;
-    padding-bottom: 48px;
     font-family: 'PT Serif', serif;
     font-size: 1.12rem;
 }
