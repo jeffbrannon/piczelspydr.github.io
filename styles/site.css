@@ -234,9 +234,19 @@ ul {
     border-top: 6px solid rgb(0,0,0);
 }
 
+.banner-bm-image {
+    margin: auto;
+    display: block;
+    margin-top: -6px;
+    background: #253d5d;
+}
+
 @media only screen and (max-width: 900px) {
     .banner-bm-border {
         border-top: 4px solid rgb(0,0,0);
+    }
+    .banner-bm-image {
+        margin-top: -4px;
     }
 }
 
@@ -244,12 +254,9 @@ ul {
     .banner-bm-border {
         border-top: 2px solid rgb(0,0,0);
     }
-}
-
-.banner-bm-image {
-    margin: auto;
-    display: block;
-    margin-top: -6px;
+    .banner-bm-image {
+        margin-top: -2px;
+    }
 }
 
 main {
