@@ -71,9 +71,9 @@ b {
 }
 
 .logo {
-    width: 48px;
+    height: 46px;
     margin-top: -10px;
-    margin-left: -24px;
+    margin-left: -16px;
 }
 
 img {
@@ -129,16 +129,19 @@ ul {
     margin: 0 18px 0 0;
     vertical-align: middle;
     display: inline;
+    border-bottom: 1px solid rgb(255,255,255);
 }
 
 .nav-menu a {
-    color: #e0e0e0
+    color: #e0e0e0;
+    border-bottom: 1px solid rgb(0,0,0);
 }
 
 .nav-menu a:hover,
 .nav-menu .c-nav-menu__is-active,
 .nav-menu a:focus {
-    color: #fff
+    color: #fff;
+    border-bottom: 1px solid rgb(255,255,255);
 }
 
 .banner-main {
